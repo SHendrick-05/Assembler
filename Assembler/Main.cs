@@ -30,5 +30,10 @@ namespace Assembler
             CodeHandler.InstrList = instrList;
             CodeHandler.Start(this);
         }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
